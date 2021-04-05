@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="44.0" text="Piesele pentru care s-a rezervat cel putin un loc:" />
+      <TableView layoutX="25.0" layoutY="114.0" prefHeight="134.0" prefWidth="266.0">
+        <columns>
+          <TableColumn prefWidth="140.79999160766602" text="Denumire" />
+          <TableColumn prefWidth="124.79997253417969" text="Data" />
+        </columns>
+      </TableView>
+      <Label layoutX="374.0" layoutY="44.0" text="Locurile rezervate:" />
+      <TableView layoutX="374.0" layoutY="81.0" prefHeight="200.0" prefWidth="378.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Loja" />
+            <TableColumn prefWidth="75.0" text="Randul" />
+            <TableColumn prefWidth="75.0" text="Numar" />
+            <TableColumn prefWidth="75.0" text="Pret" />
+            <TableColumn prefWidth="75.0" text="Stare" />
+         </columns>
+      </TableView>
+      <Button layoutX="470.0" layoutY="294.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="155.0" text="Anulare rezervare" />
+      <Button layoutX="665.0" layoutY="499.0" mnemonicParsing="false" text="Logout" />
+   </children>
+</AnchorPane>
