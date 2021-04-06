@@ -4670,48 +4670,11 @@
 									"model": {
 										"$ref": "AAAAAAF4XcVn+Nv/1sU="
 									},
-									"subViews": [
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF4XcW1btws7W4=",
-											"_parent": {
-												"$ref": "AAAAAAF4XcVn+NwHAho="
-											},
-											"model": {
-												"$ref": "AAAAAAF4XcW1W9wpMsw="
-											},
-											"font": "Arial;13;0",
-											"left": 693,
-											"top": 382,
-											"width": 179.56884765625,
-											"height": 13,
-											"text": "-locuri: List<Loc>",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF4XcYw3NwzMos=",
-											"_parent": {
-												"$ref": "AAAAAAF4XcVn+NwHAho="
-											},
-											"model": {
-												"$ref": "AAAAAAF4XcYw0twwo2U="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 877,
-											"top": 325,
-											"width": 106.59619140625,
-											"height": 13,
-											"text": "+Attribute1",
-											"horizontalAlignment": 0
-										}
-									],
 									"font": "Arial;13;0",
 									"left": 688,
 									"top": 377,
 									"width": 189.56884765625,
-									"height": 23
+									"height": 10
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -4734,7 +4697,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 693,
-											"top": 405,
+											"top": 392,
 											"width": 179.56884765625,
 											"height": 13,
 											"text": "+rezervaLoc(Loc l): void",
@@ -4751,7 +4714,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 693,
-											"top": 420,
+											"top": 407,
 											"width": 179.56884765625,
 											"height": 13,
 											"text": "+anulareRezervare(Loc l): void",
@@ -4760,7 +4723,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 688,
-									"top": 400,
+									"top": 387,
 									"width": 189.56884765625,
 									"height": 38
 								},
@@ -6074,30 +6037,13 @@
 											"height": 13,
 											"text": "-nume: String",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF4o3+cK59vjrA=",
-											"_parent": {
-												"$ref": "AAAAAAF4XeWPOfNzKB4="
-											},
-											"model": {
-												"$ref": "AAAAAAF4o3+cHZ9mHkM="
-											},
-											"font": "Arial;13;0",
-											"left": 453,
-											"top": 77,
-											"width": 166.58154296875,
-											"height": 13,
-											"text": "-piese: List<Piesa>",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 448,
 									"top": 57,
 									"width": 176.58154296875,
-									"height": 38
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -6120,7 +6066,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 453,
-											"top": 100,
+											"top": 85,
 											"width": 166.58154296875,
 											"height": 13,
 											"text": "+adaugaPiesa(Piesa p): void",
@@ -6137,7 +6083,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 453,
-											"top": 115,
+											"top": 100,
 											"width": 166.58154296875,
 											"height": 13,
 											"text": "+afiseazaPiese(): void",
@@ -6154,7 +6100,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 453,
-											"top": 130,
+											"top": 115,
 											"width": 166.58154296875,
 											"height": 13,
 											"text": "+stergePiesa(Piesa p): void",
@@ -6163,7 +6109,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 448,
-									"top": 95,
+									"top": 80,
 									"width": 176.58154296875,
 									"height": 53
 								},
@@ -8356,27 +8302,6 @@
 							}
 						}
 					],
-					"attributes": [
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF4XcW1W9wpMsw=",
-							"_parent": {
-								"$ref": "AAAAAAF4XcVn+Nv/1sU="
-							},
-							"name": "locuri",
-							"visibility": "private",
-							"type": "List<Loc>"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF4XcYw0twwo2U=",
-							"_parent": {
-								"$ref": "AAAAAAF4XcVn+Nv/1sU="
-							},
-							"name": "Attribute1",
-							"type": ""
-						}
-					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -8392,7 +8317,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF4o3GJq4bic00="
 									},
-									"name": "Loc l"
+									"name": "Loc l",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -8595,7 +8521,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF4o3ulIoo0su8="
 									},
-									"name": "String stare"
+									"name": "String stare",
+									"type": ""
 								}
 							]
 						}
@@ -8936,16 +8863,6 @@
 							"name": "nume",
 							"visibility": "private",
 							"type": "String"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF4o3+cHZ9mHkM=",
-							"_parent": {
-								"$ref": "AAAAAAF4XeWPOPNrMpg="
-							},
-							"name": "piese",
-							"visibility": "private",
-							"type": "List<Piesa>"
 						}
 					],
 					"operations": [
